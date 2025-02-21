@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame C</title>
+    <script>
+        function openNewTab() {
+            window.open("login.html", "_blank"); // Opens login page in a new tab
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            cursor: pointer; /* Makes it clear that Frame C is clickable */
+            background-color: #f3f3f3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body onclick="openNewTab()">  <!-- Clicking anywhere in Frame C opens the login page -->
+    <h3>Frame C (Click Anywhere)</h3>
+</body>
+</html>
